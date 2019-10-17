@@ -1,0 +1,660 @@
+/* Color1 : #08526d
+ * color2 : #ec1c23 */
+/* Start Upper Bar */
+.upper-bar
+{
+    background-color: #08526d;
+    color: #FFF;
+}
+.upper-bar  .info
+{
+    margin: 15px 0;
+}
+.upper-bar span
+{
+    color: #bfc6c9;
+}
+.upper-bar .get-quote
+{
+    display: inline-block;
+    border: 1px solid #ec1c23;
+    padding: 2px 10px;
+    margin-left: 20px;
+}
+/* End Upper Bar */
+
+/* Start Navbar */
+.navbar-brand span
+{
+    font-size: 40px;
+}
+.navbar-brand span:first-child
+{
+    color: #08526d;
+    font-weight: bold;
+}
+
+.navbar-brand span:last-child
+{
+    color: #ec1e23;
+}
+
+.navbar-nav .nav-link
+{
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-left: 20px;
+    color: #08526d;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.navbar-nav .active > .nav-link
+{
+    color: #ec1e23 !important;
+}
+/* End Navbar */
+
+/* Star Slider */
+.slider .carousel-item
+{
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;  
+}
+
+.slider .carousel-one
+{
+    background-image: url(../images/slider1.jpg);
+}
+
+.slider .carousel-two
+{
+    background-image: url(../images/slider2.jpg);
+}
+
+.slider .carousel-three
+{
+    background-image: url(../images/slider3.jpg);
+}
+
+.slider .carousel-inner
+{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.slider .carousel-inner h1
+{
+    color: #FFF;
+    position: absolute;
+    z-index: 3;
+    font-size: 70px;
+    max-width: 900px;
+    line-height: 1.6;
+    left: 100px;
+}
+
+.slider .carousel-inner h1 span
+{
+    background-color: #ec1c23;
+    display: inline-block;
+    padding: 2px 10px;
+}
+
+.slider .carousel-inner .overlay
+{
+    position: absolute;
+    left: auto;
+    top: auto;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0 , 0 , 0 , 0.6);
+    z-index: 2;
+}
+
+.slider .carousel-indicators li  , .testimonials .carousel-indicators li
+{
+    height: 8px;
+    cursor: pointer;
+}
+/* End Slider */
+
+/* Start Features */
+.Features
+{
+    padding: 50px 0;
+}
+.Features i
+{
+    background-color: #ed1d24;
+    color: #FFF;
+    padding: 12px;
+    margin-bottom: 10px;
+}
+.Features h3
+{
+    color: #08526d;
+    font-size: 22px;
+}
+.Features p
+{
+    color: #989898;
+    margin-bottom: 40px;
+}
+/* End Features */
+
+/* Start Overview */
+.overview
+{
+    padding: 100px 0;
+    background-color: #f0f5f7;
+}
+.overview h2
+{
+    font-size: 50px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+.overview p
+{
+    line-height: 2;
+    width: 80%;
+    font-size: 20px;
+    margin: 0 auto 15px;
+    color: #6a6a6a;
+}
+.overview h4
+{
+    letter-spacing: 2px;
+    font-weight: normal;
+    color: #8b8a8a;
+    margin-bottom: 40px;
+}
+.overview button
+{
+    background-color: #ed1d24;
+    color: #FFF;
+    padding: 10px 30px;
+    font-size: 20px;
+    font-weight: bold;
+    border: 1px solid #ed1d24;
+}
+/* End Overview */
+
+/* Start Featured-Work */
+.featured-work , .latest-posts
+{
+    padding: 100px 0 0 0;
+}
+
+.featured-work h2 , .latest-posts h2
+{
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.featured-work p  , .latest-posts .special , .price-table .special
+{
+    line-height: 1.5;
+    width: 80%;
+    font-size: 20px;
+    margin: 0 auto 15px;
+    color: #6a6a6a;
+}
+
+.featured-work ul
+{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.featured-work ul li
+{
+    color: #08526d;
+    border: 2px solid #08526d;
+    padding: 10px 20px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.featured-work ul li.active , .featured-work ul li:hover
+{
+    background-color: #ec1c23;
+    color: #FFF;
+    border: 2px solid #ec1c23;
+}
+
+.featured-work ul li:hover
+{
+    cursor: pointer;
+}
+
+.featured-work .shuffle-images .row
+{
+    margin: 0 ;
+}
+.featured-work .shuffle-images .row .col-md
+{
+    padding: 0;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+.featured-work .shuffle-images img
+{
+    width: 100%;
+}
+/* End Featured-Work */
+
+/* Star Latest-posts */
+.latest-posts .card
+{
+   margin-bottom: 30px; 
+}
+
+.latest-posts .special
+{
+    margin-bottom: 50px
+}
+
+.latest-posts .card .card-title
+{
+    font-size: 20px;
+    line-height: 1.5;
+    color: #08526d;
+}
+
+.latest-posts .card .card-text
+{
+    color: #787878;
+    margin-bottom: 5px;
+}
+.latest-posts .card .card-link
+{
+    font-weight: bold;
+    color: #ed1d24;
+}
+/* End Latest-posts */
+/* Start Testimonials */
+.testimonials
+{
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-image: url('../images/slider2.jpg');
+    position: relative;
+}
+
+.testimonials .overlay
+{
+    position: absolute;
+    left: auto;
+    top: auto;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0 , 0 , 0 , 0.6);
+    z-index: 2;
+}
+
+.testimonials .container
+{
+    position: relative;
+    z-index: 3;
+}
+.testimonials .carousel-caption img
+{
+    margin-bottom: 20px;
+}
+
+.testimonials .carousel-caption h5
+{
+    margin-bottom: 5px;
+}
+
+.testimonials .carousel-caption span
+{
+    font-size: 18px;
+    display: inline-block;
+    margin-bottom: 30px;
+}
+
+.testimonials .carousel-caption
+{
+    top: 50%;
+    height: 30%;
+    margin:-15% ;
+}
+
+      
+/* End Testimonials */
+/* Star Pricing Table */
+.price-table
+{
+    padding: 100px 0 100px;
+    background-color: #f7f7f7;
+}
+.price-table .card
+{
+   margin-bottom: 30px; 
+}
+.price-table .card-body
+{
+    padding: 0;
+}
+.price-table .special
+{
+    margin-bottom: 50px
+}
+
+.price-table .card .card-title
+{
+    font-size: 25px;
+    line-height: 1.5;
+    color: #08526d;
+    margin-top: 40px;
+}
+
+.price-table .card .card-text
+{
+    color: #08526d;
+    margin-bottom: 5px;
+    margin: 30px 0 10px;
+    background-color: #f7f7f7;
+    padding: 10px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.price-table .card .card-text span
+{
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.price-table .list-group-item
+{
+    border: none;
+}
+
+.price-table .card .card-link
+{
+    font-weight: bold;
+    color: #FFF;
+    display: inline-block;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: #ed1d24;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+.price-table .corporate
+{
+    position: relative;
+    top: -15px;
+}
+
+.price-table .corporate .card-text
+{
+    background-color: #ed1d24;
+    color: #FFF;
+}
+
+.price-table .corporate .card-link
+{
+    background-color: #08526d;
+}
+/* End Pricing Table */
+/* Start Choose Us */
+.choose-us img
+{
+    max-width: 100%;
+}
+
+.choose-us .why
+{
+    padding: 0;
+}
+.choose-us .why:last-child
+{
+    background-color: #08526d;
+    color: #FFF;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.choose-us h2
+{
+    margin: 40px;
+}
+
+.choose-us p
+{
+    line-height: 2;
+    margin: 40px;
+    font-size: 18px;
+}
+
+.choose-us .read-more
+{
+    display: inline-block;
+    padding: 8px 20px;
+    background-color: #ed1d24;
+    margin: 0 0 0 40px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+    color: #FFF;
+    
+}
+/* End Choose Us */
+/* Start stats*/
+.stats
+{
+    padding: 100px 0;
+    color: #08526d;
+}
+.stats .stat-box
+{
+    margin-bottom: 30px;
+}
+.stats span
+{
+    display: block;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.stats p
+{
+    color: #ed1d24;
+    font-size: 20px;
+    font-weight: 500;
+}
+/* End stats*/
+/* Start Contact Us */
+.contact-us
+{
+    padding: 80px 0;
+    background-color: #ed1d24;
+    color: #FFF;
+    font-size: 25px;
+}
+
+.contact-us p
+{
+    margin: 0;
+}
+
+.contact-us a
+{
+    color: #FFF;
+    border: 2px solid #FFF;
+    padding: 6px 15px 8px;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+/* End Contact Us */
+/* Start Footer */
+.footer
+{
+    padding: 100px 0;
+}
+.footer .info span
+{
+    display: inline-block;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+.footer .info span:first-of-type
+{
+    color: #08526d;
+    font-weight: bold;
+}
+
+.footer .info span:last-of-type
+{
+    color: #ec1e23;
+}
+
+.footer .info p
+{
+    line-height: 1.7;
+    color:#727272;
+}
+
+.footer .info a
+{
+    font-size:17px ;
+    color: #08526d;
+    font-weight: 500;
+}
+
+.footer .info i
+{
+    color: #08526d;
+    font-size: 13px;
+    margin-right: 4px;
+}
+
+.footer .help h3 , .footer .contact h3
+{
+    color: #08526d;
+    margin-bottom: 30px;
+}
+
+.footer .help ul li
+{
+    margin-bottom: 10px;
+}
+
+.footer .help ul li i
+{
+    margin-right: 5px;
+    font-size: 10px;
+}
+.footer .contact ul li
+{
+    margin-bottom: 20px;
+}
+
+/* End Footer */
+
+/* Start Copyright */
+.copy-right
+{
+    border-top: 1px solid #e2e2e2;
+    padding: 20px;
+}
+.copy-right ul
+{
+    margin: 0;
+}
+.copy-right ul li
+{
+    display: inline-block;
+    margin-left: 20px;
+}
+.copy-right ul li a
+{
+    color: #777;
+}
+
+/* End Copyright */
+
+@media (max-width: 576px)
+{
+    .upper-bar .info:first-child
+    {
+        margin-bottom: 0;
+    }
+    
+    .upper-bar .get-quote
+    {
+        border: none;
+        margin-left: 5px;
+    }
+}
+
+@media (max-width: 768px)
+{
+    .slider .carousel-inner
+    {
+        justify-content: center;
+    }
+    .slider .carousel-inner h1
+    {
+        max-width: 100%;
+        left: auto;
+        text-align: center;
+        font-size: 40px;
+    }
+    .contact-us p
+    {
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 992px)
+{
+    .overview p
+    {
+        line-height: 2;
+        width: 100%;
+        font-size: 20px;
+        margin: 0 auto 15px;
+        color: #6a6a6a;
+    }
+    .overview h2
+    {
+        font-size: 30px;
+        margin-bottom: 15px;
+    }
+    .price-table .corporate
+    {
+        top: 0;
+    }
+    .footer .help h3 , .footer .contact h3
+    {
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+    .footer .contact ul li
+    {
+        margin-bottom: auto;
+    }
+    .copy-right 
+}
+
+
+
+
+
